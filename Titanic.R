@@ -12,6 +12,7 @@ setwd("C:/Users/amanu/Documents/R/Kaggle/Titanic")
 titanic_train <- read.csv("train.csv") # training set
 titanic_test <- read.csv("test.csv") # test set
 
+
 # Load libraries
 library(ggplot2) # for plotting
 
