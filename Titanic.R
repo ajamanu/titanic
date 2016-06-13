@@ -19,6 +19,6 @@ library(ggplot2) # for plotting
 summary(titanic_train)
 str(titanic_train)
 
-# Plot data
+# Plot of age data
 ggplot(titanic_train, aes(Age)) +
       geom_histogram(binwidth = 10)
